@@ -1339,7 +1339,7 @@
 #endif
 
 // Delta only homes to Z
-#define HOMING_FEEDRATE_Z  (100*60)
+#define HOMING_FEEDRATE_Z  (80*60)
 
 // @section calibrate
 
