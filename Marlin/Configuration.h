@@ -33,7 +33,7 @@
 // 0 ... no heated bed
 // 1 ... aluminium heated bed with "BuildTak-like" sticker
 // 2 ... ultrabase heated bed
-#define ANYCUBIC_KOSSEL_ENABLE_BED 1
+#define ANYCUBIC_KOSSEL_ENABLE_BED 2
 
 /**
  * Configuration.h
@@ -409,9 +409,9 @@
   //#define DEFAULT_Kd 440
 
   // Anycubic Kossel - run 'M106 S255' & 'M303 E0 C10 S200'
-  #define DEFAULT_Kp 22.36
-  #define DEFAULT_Ki 1.63
-  #define DEFAULT_Kd 76.48
+  #define DEFAULT_Kp 13.77
+  #define DEFAULT_Ki 0.76
+  #define DEFAULT_Kd 62.61
 
 #endif // PIDTEMP
 
